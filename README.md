@@ -76,7 +76,7 @@ The Swipe implementation handles the logic when a user swipes left or right on a
   - If there is mutual interest (the swiped user has also swiped "yes" on the current user), it creates a match record in the database.
   - It returns a response indicating a match, including the match ID.
 
-I made sure that swipe implementation ensures a user cannot swipe on themselves, checkes if the swiped user exists, prevents duplicate swipes, records the swipe with the appropriate preference, and determines if there is a mutual interest, creating a match if both users have swiped "yes" on each other.
+I made sure that swipe implementation ensures a user cannot swipe on themselves, checks if the swiped user exists, prevents duplicate swipes, records the swipe with the appropriate preference, and determines if there is a mutual interest, creating a match if both users have swiped "yes" on each other.
 
 ### Discover
 
